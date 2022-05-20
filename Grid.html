@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>my grid page</title>
+  <style>
+    html {
+      box-sizing: border-box;
+    }
+
+    *,
+    *::before,
+    *::after {
+      box-sizing: inherit;
+    }
+
+    .container {  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  gap: 10px 10px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "Angel Angel Angel Anatomy Anatomy ssss Anat"
+    "Angel Angel Angel Anatomy Anatomy wwww gggg"
+    "doodle Acid-trip-color-demo Acid-trip-color-demo Anatomy Anatomy MMF MMF"
+    "doodle Acid-trip-color-demo Acid-trip-color-demo Morbid-interests Morbid-interests MMF MMF"
+    "post-card post-card Logo Morbid-interests Morbid-interests MMF MMF";
+}
+
+.Angel { grid-area: Angel;
+background: red;
+color: pink;
+
+}
+
+.Anatomy { grid-area: Anatomy;
+background:yellow; }
+
+.Morbid-interests { grid-area: Morbid-Interests;
+background: green;}
+
+.Acid-trip-color-demo { grid-area: Acid-trip-color-demo;
+background: purple;}
+
+.doodle { grid-area: doodle; }
+
+.Logo { grid-area: Logo; }
+
+.post-card { grid-area: post-card; }
+
+.MMF { grid-area: MMF; }
+
+.Anat { grid-area: Anat; }
+
+.ssss { grid-area: ssss; }
+
+.wwww { grid-area: wwww; }
+
+.gggg { grid-area: gggg; }
+
+  </style>
+<body>
+  <div class="Angel">
+  <h1>Claire stinky</h1></div>
+  <div class="Anatomy">  <h1>Claire stinky</h1></div>
+  <div class="Morbid-Interests">  <h1>Claire stinky</h1></div>
+  <div class="Acid-trip-color-demo">  <h1>Claire stinky</h1></div>
+    <div class="doodle">  <h1>Claire stinky</h1></div>
+      <div class="Logo">  <h1>Claire stinky</h1>  <h1>Claire stinky</h1></div>
+        <div class="post-card">  <h1>Claire stinky</h1></div>
+          <div class="MMF">  <h1>Claire stinky</h1></div>
+            <div class="Anat">  <h1>Claire stinky</h1></div>
+              <div class=".ssss">  <h1>Claire stinky</h1></div>
+               <div class=".wwww">  <h1>Claire stinky</h1></div>
+            <div class=".gggg">  <h1>Claire stinky</h1></div>
+
+</head>
+
+<body>
+</body>
+
+</html>
